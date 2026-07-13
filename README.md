@@ -96,6 +96,9 @@ The exploratory analysis investigates:
 
 This stage provides an overview of market dynamics before applying statistical analysis.
 
+![Stock Prices](images/stocks.png)
+![Stock Prices](images/trends.png)
+
 ---
 
 ### Correlation Analysis
@@ -108,6 +111,8 @@ The analysis includes:
 - Correlation after the launch of ChatGPT
 - Comparison between NVIDIA and Microsoft
 - Relationship between AI hype and stock performance
+
+![Stock Prices](images/heatmap.png)
 
 ---
 
@@ -140,6 +145,10 @@ The analysis shows that:
 - Stronger relationships appear when analysing the post-ChatGPT period.
 - Lag analysis suggests that increased stock market attention may influence future search activity more than search trends predict future stock returns.
 
+Two-Month Trends Lag Heatmap:
+
+![Stock Prices](images/two_months_lag.png)
+
 ---
 
 ## Repository Structure
@@ -147,10 +156,13 @@ The analysis shows that:
 ```text
 ai-hype-vs-nvidia-stock-performance/
 │
-├── notebooks/
-│   └── AI_Hype_vs_NVIDIA_Stock_Performance.ipynb
-│
 ├── images/
+│   ├── heatmap.png
+│   ├── stocks.png
+│   ├── trends.png
+│   └── two_months_lag.png
+│
+├── AI_Hype_vs_NVIDIA_Stock_Performance.ipynb
 │
 └── README.md
 ```
